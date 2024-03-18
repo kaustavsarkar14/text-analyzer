@@ -1,4 +1,5 @@
 # Text Analyzer
+![test](https://github.com/kaustavsarkar14/text-analyzer/assets/93545845/a57efb70-a994-42f3-94c3-72c3932f3367)
 
 Text Analyzer is a web application designed to help users analyze text content for various metrics such as characters, words, sentences, paragraphs, spaces, and punctuations.
 
