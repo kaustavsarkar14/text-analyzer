@@ -31,9 +31,7 @@ Text Analyzer is a web application designed to help users analyze text content f
 ## Technologies Used
 
 - React: A JavaScript library for building user interfaces.
-- JavaScript: The programming language used for implementing application logic.
-- HTML: The markup language for structuring the web page content.
-- CSS: The style sheet language for styling the user interface elements.
+
 
 ## Acknowledgments
 
