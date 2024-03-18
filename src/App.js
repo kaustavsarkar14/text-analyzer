@@ -6,7 +6,7 @@ function App() {
   const [selectedInput, setSelectedInput] = useState("word");
 
   return (
-    <div className="p-4 flex flex-col gap-4">
+    <div className="p-4 flex flex-col gap-4 min-h-screen bg-gradient-to-t from-[#EFF6FF] to-[#FFFFFF]">
       <h1 className="text-4xl font-semibold tracking-tighter">Text Analyzer</h1>
       <p className="text-lg">
         Text Analyzer is a simple free online tool for SEO web content analysis
@@ -18,7 +18,8 @@ function App() {
         <button
           className={
             "w-56 py-2 " +
-            (selectedInput == "word" && "bg-white shadow-md rounded-md font-semibold")
+            (selectedInput == "word" &&
+              "bg-white shadow-md rounded-md font-semibold")
           }
           onClick={() => setSelectedInput("word")}
         >
@@ -27,7 +28,8 @@ function App() {
         <button
           className={
             "w-56 py-2 " +
-            (selectedInput == "paragraph" && "bg-white shadow-md rounded-md font-semibold")
+            (selectedInput == "paragraph" &&
+              "bg-white shadow-md rounded-md font-semibold")
           }
           onClick={() => setSelectedInput("paragraph")}
         >
