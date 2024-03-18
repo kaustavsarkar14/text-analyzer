@@ -26,7 +26,7 @@ const WordInput = () => {
           </tr>
         </thead>
         <tbody>
-          <tr>
+          <tr className="bg-[#F9FAFB]">
             <td className="border pl-2 p-1">{countCharacters(text)}</td>
             <td className="border pl-2 p-1">{countWords(text)}</td>
           </tr>
